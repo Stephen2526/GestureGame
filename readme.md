@@ -25,7 +25,7 @@ This guide walks you through setting up the Rock-Paper-Scissors hand-gesture rec
 In your terminal, choose a directory and run:
 
 ```bash
-git clone https://github.com/your-username/rps-gesture.git
+git clone https://github.com/Stephen2526/GestureGame.git
 cd rps-gesture
 ```
 
