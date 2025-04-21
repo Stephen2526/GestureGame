@@ -53,7 +53,31 @@ With the environment active, start the PyQt6 app:
 python rps_game.py
 ```
 
-## 5. Troubleshooting
+## 5. How to Play Rock ✊ Paper ✋ Scissors ✌️ with Your Hand Gestures
+
+1. **Launch & Start**  
+   - Run the app and click **Start**. An 8‑round game begins.  
+
+2. **Round Countdown**  
+   - You’ll see “Round N” at the top and a 3 s countdown.  
+
+3. **Make Your Move**  
+   - Hold up ✊, 🖐️, or ✌️ before the timer hits zero.  
+   - If your gesture isn’t recognized in time, you automatically win that round.  
+
+4. **Computer’s Response**  
+   - The computer counters your move and its icon appears on the left.  
+   - Your chosen gesture shows on the right.  
+
+5. **Scoring**  
+   - Wins, losses, and ties are tallied in the large score panel.  
+   - After 8 rounds, click **Quiz** to review your final results.  
+
+6. **Controls**  
+   - **Pause/Resume** halts or continues the countdown.  
+   - **Quit** closes the game at any time.  
+
+## 6. Troubleshooting
 
 - **Camera access issues**: Ensure no other application is using the camera. On Windows, run the script natively (not WSL).
 - **Missing GUI**: Verify PyQt6 installed (`pip show PyQt6` or `conda list pyqt`).
@@ -61,4 +85,4 @@ python rps_game.py
 
 ---
 
-You’re now ready to play Rock-Paper-Scissors with the computer! Enjoy!
+Good luck, and have fun out‑witting the computer! Enjoy!
