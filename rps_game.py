@@ -7,7 +7,7 @@ FINGER_TIPS = [4, 8, 12, 16, 20]
 FINGER_PIPS = [3, 6, 10, 14, 18]
 ICON_SIZE   = 64
 MAX_ROUNDS  = 8
-COUNT_START = 2  # seconds per round
+COUNT_START = 3  # seconds per round
 
 def count_fingers(hand_landmarks, w, h):
     pts = [(int(lm.x * w), int(lm.y * h)) for lm in hand_landmarks.landmark]
