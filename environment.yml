@@ -1,0 +1,12 @@
+name: rps-gesture
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy>=1.21
+  - pyqt=6           # installs PyQt6 from conda-forge
+  - pip              # enable the pip sub‑section
+  - pip:
+    - opencv-python>=4.5
+    - mediapipe
+    - pillow
