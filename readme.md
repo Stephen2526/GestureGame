@@ -26,7 +26,7 @@ In your terminal, choose a directory and run:
 
 ```bash
 git clone https://github.com/Stephen2526/GestureGame.git
-cd rps-gesture
+cd GestureGame
 ```
 
 ## 3. Create and Activate the Conda Environment
